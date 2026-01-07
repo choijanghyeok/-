@@ -12,8 +12,9 @@ const Footer = () => {
             <p>이메일: contact@icanstory.com</p>
           </div>
         </div>
-        <div className="border-t border-gray-700 pt-8 text-center md:text-left text-gray-400 text-sm">
-          Copyright © 2025 I CAN STORY. All rights reserved.
+        <div className="border-t border-gray-700 pt-8 text-center md:text-left text-gray-400 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
+          <p>Copyright © 2025 I CAN STORY. All rights reserved.</p>
+          <p className="text-gray-600 text-xs">v2025.01.07 Update</p>
         </div>
       </div>
     </footer>
